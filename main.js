@@ -33,7 +33,7 @@ async function fetchSearch (){
     let day = date.getDate()
     let month = date.getMonth()+1
     let year = date.getFullYear()
-    let todaysDate = day + 1 + '/' + month + '/' + year 
+    let todaysDate = day + '/' + month + '/' + year 
     weatherDate.innerText = todaysDate
     const round = `${Math.floor(data.main.temp)}°`
     temp.innerText = round
@@ -62,7 +62,7 @@ async function getLondon(){
     let day = date.getDate()
     let month = date.getMonth()+1
     let year = date.getFullYear()
-    let todaysDate = day + 1 + '/' + month + '/' + year 
+    let todaysDate = day + '/' + month + '/' + year 
     weatherDate.innerText = todaysDate
     const round = `${Math.floor(data.main.temp)}°`
     temp.innerText = round
@@ -92,7 +92,7 @@ async function getAmsterdam(){
     let day = date.getDate()
     let month = date.getMonth()+1
     let year = date.getFullYear()
-    let todaysDate = day + 1 + '/' + month + '/' + year 
+    let todaysDate = day + '/' + month + '/' + year 
     weatherDate.innerText = todaysDate
     const round = `${Math.floor(data.main.temp)}°`
     temp.innerText = round
@@ -121,7 +121,7 @@ async function getParis(){
     let day = date.getDate()
     let month = date.getMonth()+1
     let year = date.getFullYear()
-    let todaysDate = day + 1 + '/' + month + '/' + year 
+    let todaysDate = day + '/' + month + '/' + year 
     weatherDate.innerText = todaysDate
     const round = `${Math.floor(data.main.temp)}°`
     temp.innerText = round
@@ -150,7 +150,7 @@ async function getBerlin(){
     let day = date.getDate()
     let month = date.getMonth()+1
     let year = date.getFullYear()
-    let todaysDate = day + 1 + '/' + month + '/' + year 
+    let todaysDate = day + '/' + month + '/' + year 
     weatherDate.innerText = todaysDate
     const round = `${Math.floor(data.main.temp)}°`
     temp.innerText = round
@@ -179,7 +179,7 @@ async function getMadrid(){
     let day = date.getDate()
     let month = date.getMonth()+1
     let year = date.getFullYear()
-    let todaysDate = day + 1 + '/' + month + '/' + year 
+    let todaysDate = day + '/' + month + '/' + year 
     weatherDate.innerText = todaysDate
     const round = `${Math.floor(data.main.temp)}°`
     temp.innerText = round
@@ -187,31 +187,4 @@ async function getMadrid(){
     humidity.innerHTML = `${data.main.humidity}% humidity`
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// button.addEventListener('click', function() {
-// fetch ('https://api.openweathermap.org/data/2.5/weather?q='+searchBox.value+'&units=metric&appid=dbb45a93ce752788381a20675a5a9c02')
-// .then (response => response.json())
-// .then (data => console.log(data))
-
-// })
 
